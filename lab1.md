@@ -27,9 +27,9 @@ Mục đích - Phân tích kiến trúc và ca sử dụng hệ thống "Payroll
     
 3. Biểu Đồ Lớp Cho Payment:
 
- ![Diagram](https://www.planttext.com/api/plantuml/png/X9A_IiH04CRxVOefjRWNI2475_10iJ4SMAwRPNSncOLavpI8jONu41Q785W8LhU5HPvady1NC6VkJn8YbZFx_MQ-RzXl_pKj7IySvHaJ6IzBk51aJKoeu9u1GCxtZGWkNM5GRTfEudXVavWRYOdcg1FByUYOFR3jwDX8EjFTrtR77PrNLv9cdFx0X5xGWBanCayAtWN-Mp-tFBQuYzLMNU-bJHeqWjJITIOFtCoY6cnt_Vc7cqqc9sCn8r31lnkewZS24TQln4PKBTmF-qi-6qY3Vn8Qbi6ls52puRRX8iZ2UbKr1klFneupEAhkHueQUV0V0hG9_X7RTE1i_O9iAZ5jFiSfT_AMLxlo1m00__y30000)
- 
-**Giải Thích Biểu Đồ Lớp Payment**
+    ![Diagram](https://www.planttext.com/api/plantuml/png/X9A_IiH04CRxVOefjRWNI2475_10iJ4SMAwRPNSncOLavpI8jONu41Q785W8LhU5HPvady1NC6VkJn8YbZFx_MQ-RzXl_pKj7IySvHaJ6IzBk51aJKoeu9u1GCxtZGWkNM5GRTfEudXVavWRYOdcg1FByUYOFR3jwDX8EjFTrtR77PrNLv9cdFx0X5xGWBanCayAtWN-Mp-tFBQuYzLMNU-bJHeqWjJITIOFtCoY6cnt_Vc7cqqc9sCn8r31lnkewZS24TQln4PKBTmF-qi-6qY3Vn8Qbi6ls52puRRX8iZ2UbKr1klFneupEAhkHueQUV0V0hG9_X7RTE1i_O9iAZ5jFiSfT_AMLxlo1m00__y30000)
+         
+**Giải Thích Biểu Đồ Lớp Payment :**
 - NguoiDung: Đại diện cho người dùng của hệ thống, có các thuộc tính như mã người dùng và tên người dùng. Người dùng sẽ gửi yêu cầu thanh toán.
 - DieuKhienThanhToan: Điều khiển việc xử lý yêu cầu thanh toán từ người dùng và gọi dịch vụ thanh toán.
 - DichVuThanhToan: Xử lý logic thanh toán, bao gồm kiểm tra và thực hiện giao dịch.
